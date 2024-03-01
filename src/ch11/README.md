@@ -46,3 +46,10 @@ public class XXXException extends [ Exception | RuntimeException ] {
         }
         }
 ```
+```java
+void method() throws Exception {
+        ...
+        throw new Exception("예외메시지");
+        ...
+        }
+```
