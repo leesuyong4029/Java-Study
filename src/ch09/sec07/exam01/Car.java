@@ -1,4 +1,4 @@
-package ch09.sec07;
+package ch09.sec07.exam01;
 
 public class Car {
     // 필드에 Tire 객체 대입
