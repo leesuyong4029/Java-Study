@@ -17,6 +17,8 @@ public class Student {
         int hashCode = no + name.hashCode();
         return hashCode;
     }
+    // 만약 hashCode()를 저장하지 않으면 객체 번지로 해시코드를 생성하므로 객체가 다를 경우 해시코드도 달라진다. 그러므로 위 코드를 주석처리하면 실행결과가 달라진다.
+
 
     @Override
     public boolean equals(Object obj) {
