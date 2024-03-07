@@ -19,3 +19,6 @@ public int hashCode()
 ## 객체 문자 정보
 Object의 toString() 메서드는 객체의 문자 정보를 리턴한다. 객체의 문자 정보란 객체를 문자열로 표현한 값을 말한다. 
 기본적으로 Object의 toString() 메서드는 '클래스명@16진수해시코드'로 구성된 문자열을 리턴한다. 
+
+## 레코드 선언
+데이터 전달을 위한 DTO(Data Transfer Object)을 작성할 때 반복적으로 사용되는 코드를 줄이기 위해 Java 14부터 레코드(record)가 도입되었다. 
